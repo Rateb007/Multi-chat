@@ -1,0 +1,64 @@
+.header {
+  height: 80px;
+  border-bottom: solid 1px #ababab;
+}
+
+.activate {
+  font-size: 14px;
+  display: inline-flex;
+  height: 100%;
+  align-items: center;
+ // padding: 0 40px;
+
+  p {
+    font-weight: 500;
+    margin: 0;
+    padding: 0 20px;
+  }
+
+  span {
+    color: #1f97ff;
+    padding: 0 20px;
+    cursor: pointer;
+  }
+}
+
+.right-head {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-inside: 10px;
+}
+
+.circle-image {
+  height: 80px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  img {
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+  }
+
+  span {
+
+  }
+}
+
+.account-det {
+  display: inline-flex;
+  align-content: center;
+  align-items: center;
+
+  img {
+    margin-inline-end: 5px;
+  }
+}
+
+.account-name {
+  font-weight: bold;
+  margin: 0;
+}

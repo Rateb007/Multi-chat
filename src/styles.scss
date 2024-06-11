@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+*::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+*::-webkit-scrollbar
+{
+  width: 6px;
+  height: 6px;
+  background-color: #F5F5F5;
+}
+
+*::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #555;
+}
+/*@media screen and (max-width: 1024px) {
+  .circle-image {
+    display: contents !important;
+  }
+}*/
+@media screen and (max-width: 992px) {
+/*  .circle-image {
+    display: block !important;
+  }*/
+  .header ,.pageContent{
+    height: auto !important;
+  }
+}
+///vars
